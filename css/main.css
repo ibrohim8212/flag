@@ -1,0 +1,50 @@
+body{
+    background-color: #000;
+    display: flex;
+}
+
+.flag{
+width: 100px;
+height: 100px;
+margin-left: 20px;
+}
+
+.first{
+   background-image:  linear-gradient(90deg, blue 33% 20%, white 33% 70%, red 33% 70%);
+}
+
+.second{
+    background-image: linear-gradient( white 33% 38%, blue 33% 74%, red -1% 2% );
+}
+
+.third{
+    background-image: linear-gradient(black 33% 38%, red 33% 74%, yellow 1% 2%);
+}
+
+.four{
+background-image: linear-gradient(blue 33% 38%, black 33% 74%, white 1% 2%);
+}
+
+.five{
+    background-image: linear-gradient(green 33% 38%, white 33% 74%, blue 1% 2%);
+}
+
+.six{
+    background-image:  linear-gradient(90deg, green 33% 20%, white 33% 70%, red 33% 70%) 
+}
+
+.seven{
+    background: radial-gradient(circle, yellow 0%, yellow 33%, cyan 33%);
+}
+
+.eght{
+    background-image: linear-gradient( blue 33% 50%, yellow 33% 50%); 
+}
+
+.nine{
+    background-image: linear-gradient(135deg, green 37% 30%, yellow 30% 66%, red 0% 0%);
+}
+
+.ten{
+    background-image: linear-gradient(skyblue 33% 38%, white 33% 74%, skyblue 1% 2%);
+}
